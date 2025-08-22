@@ -4,7 +4,6 @@ import jakarta.persistence.Persistence;
 import model.Book;
 import model.Item;
 import model.Magazine;
-
 import java.util.List;
 
 public class Main {

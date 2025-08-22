@@ -6,8 +6,7 @@ import java.time.LocalDate;
 
 @Entity
 @Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
-
-public class Item extends BaseEntity<Long>  {
+public class Item extends BaseEntity<Long> {
     private String title;
     private String author;
     private LocalDate year;
@@ -17,7 +16,6 @@ public class Item extends BaseEntity<Long>  {
 
     @Embedded
     private Publisher publisher;
-
 
     public Publisher getPublisher() {
         return publisher;
@@ -50,4 +48,6 @@ public class Item extends BaseEntity<Long>  {
     public void setYear(LocalDate year) {
         this.year = year;
     }
+
+
 }

@@ -3,7 +3,7 @@ package model;
 import jakarta.persistence.Entity;
 
 @Entity
-public class Magazine extends Item{
+public class Magazine extends Book{
 
     private String genre;
 

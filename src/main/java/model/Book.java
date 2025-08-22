@@ -1,12 +1,13 @@
 package model;
 
-import jakarta.persistence.DiscriminatorValue;
-import jakarta.persistence.Entity;
 
-import java.time.LocalDate;
+import com.sun.istack.NotNull;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
 
 @Entity
 public class Book extends Item{
+
     private String ISBN;
 
     public String getISBN() {
