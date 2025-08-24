@@ -1,8 +1,11 @@
 //package util;
 //
+//import model.Item;
+//import repository.ItemRepository;
+//
 //public class ApplicationContext {
 //
-//    private static UserRepository userRepository;
+//    private static ItemRepository itemRepository;
 //    private static UserService userService;
 //
 //    static {
